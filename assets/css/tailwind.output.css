@@ -2041,65 +2041,51 @@ print and (-ms-high-contrast:none) {
     .sm\:justify-center {
         justify-content: center
     }
-
     .sm\:m-4 {
         margin: 1rem
     }
-
     .sm\:mt-auto {
         margin-top: auto
     }
-
     .sm\:max-w-xl {
         max-width: 36rem
     }
-
     .sm\:p-12 {
         padding: 3rem
     }
-
     .sm\:py-2 {
         padding-top: .5rem;
         padding-bottom: .5rem
     }
-
     .sm\:px-4 {
         padding-left: 1rem;
         padding-right: 1rem
     }
-
     .sm\:w-auto {
         width: auto
     }
-
     .sm\:grid-cols-9 {
         grid-template-columns: repeat(9, minmax(0, 1fr))
     }
 }
-
 @media (min-width:768px) {
     .md\:space-x-4>:not(template)~:not(template) {
         --space-x-reverse: 0;
         margin-right: calc(1rem*var(--space-x-reverse));
         margin-left: calc(1rem*(1 - var(--space-x-reverse)))
     }
-
     .md\:block {
         display: block
     }
-
     .md\:hidden {
         display: none
     }
-
     .md\:flex-row {
         flex-direction: row
     }
-
     .md\:items-end {
         align-items: flex-end
     }
-
     .md\:h-auto {
         height: auto
     }
@@ -2107,18 +2093,15 @@ print and (-ms-high-contrast:none) {
     .md\:w-1\/2 {
         width: 50%
     }
-
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
 }
-
 @media (min-width:1024px) {
     .lg\:mr-32 {
         margin-right: 8rem
     }
 }
-
 @media (min-width:1280px) {
     .xl\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr))
